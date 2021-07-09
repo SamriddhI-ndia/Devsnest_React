@@ -1,0 +1,19 @@
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.card,h2{
+background:white;
+
+}
+.card{
+  padding: 2vmin;
+  box-shadow: 1px 1px 10px 1px black;
+}
+.image{
+  width:400px;
+  height:220px;
+}
