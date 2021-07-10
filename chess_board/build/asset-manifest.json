@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Devsnest_React/static/css/main.8442535d.chunk.css",
-    "main.js": "/Devsnest_React/static/js/main.c426e6da.chunk.js",
-    "main.js.map": "/Devsnest_React/static/js/main.c426e6da.chunk.js.map",
-    "runtime-main.js": "/Devsnest_React/static/js/runtime-main.f90b9ca1.js",
-    "runtime-main.js.map": "/Devsnest_React/static/js/runtime-main.f90b9ca1.js.map",
-    "static/js/2.0dfe0346.chunk.js": "/Devsnest_React/static/js/2.0dfe0346.chunk.js",
-    "static/js/2.0dfe0346.chunk.js.map": "/Devsnest_React/static/js/2.0dfe0346.chunk.js.map",
-    "index.html": "/Devsnest_React/index.html",
-    "static/css/main.8442535d.chunk.css.map": "/Devsnest_React/static/css/main.8442535d.chunk.css.map",
-    "static/js/2.0dfe0346.chunk.js.LICENSE.txt": "/Devsnest_React/static/js/2.0dfe0346.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.8442535d.chunk.css",
+    "main.js": "./static/js/main.c426e6da.chunk.js",
+    "main.js.map": "./static/js/main.c426e6da.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ddce0b8f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ddce0b8f.js.map",
+    "static/js/2.0dfe0346.chunk.js": "./static/js/2.0dfe0346.chunk.js",
+    "static/js/2.0dfe0346.chunk.js.map": "./static/js/2.0dfe0346.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.8442535d.chunk.css.map": "./static/css/main.8442535d.chunk.css.map",
+    "static/js/2.0dfe0346.chunk.js.LICENSE.txt": "./static/js/2.0dfe0346.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f90b9ca1.js",
+    "static/js/runtime-main.ddce0b8f.js",
     "static/js/2.0dfe0346.chunk.js",
     "static/css/main.8442535d.chunk.css",
     "static/js/main.c426e6da.chunk.js"
