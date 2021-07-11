@@ -1,0 +1,33 @@
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.board{
+  width:425px;
+  height:60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  background: #000;
+  border:5px solid black;
+}
+.block_even,.block_odd{
+  display:inline-block;
+  width:11.6%;
+  height:6.8vmin;
+  border:1px solid white;
+  color:white;
+  background: #fff;
+  
+}
+.block_even:nth-child(even){
+  background: #000!important;
+  color:black;
+}
+.block_odd:nth-child(odd){
+  background: #000!important;
+  color:black;
+}
