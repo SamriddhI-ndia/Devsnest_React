@@ -1,0 +1,39 @@
+.count{
+  display: inline-block;
+  margin:2vmin;
+  padding: 2vmin;
+  width:10vmin;
+  height:15vmin;
+  border:2px solid black;
+  text-align: center;
+  font-size: 12vmin;
+  font-weight: bold;
+  background: rgb(0, 13, 41);
+  color:white;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background: rgba(0,0,0,0.5)!important;
+  border:2px solid red;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  user-select: none;
+}
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:10vh;
+  font-size: 4vh;
+  font-weight: bold;
+  margin:2vmin;
+  padding: 2vmin;
+}
