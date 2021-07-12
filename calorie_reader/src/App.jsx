@@ -1,18 +1,28 @@
 import './App.css';
-import Card from './card'
+import CardList from './card_list'
+import React from 'react';
+import {useState} from 'react'
 
-function App(props) {
+function App() {
+
+const [cards, setcards] = useState([
+  {key:"1",text:"Pizza" ,calorie:"56"},
+  {key:"2",text:"Coke" ,calorie:"500"},
+  {key:"3",text:"Burger" ,calorie:"69"},
+  {key:"4",text:"Brownie" ,calorie:"180"},
+  {key:"5",text:"Paani Puri" ,calorie:"90"},
+  {key:"6",text:"Fried Rice" ,calorie:"10"}
+])
+const deletee=(key)=>{
+  const newCards=cards.filter((card)=>card.key!==key)
+  setcards(newCards);
+}
   return (
     <div className="App">
       <div className="head">
         <h1>Calorie Reader</h1>
       </div>
-      <Card text="Pizza" calorie="56"/>
-      <Card text="Coke" calorie="500"/>
-      <Card text="Burger" calorie="69"/>
-      <Card text="Brownie" calorie="180"/>
-      <Card text="Paani Puri" calorie="90"/>
-      <Card text="Fried Rice" calorie="10"/>
+      <CardList cards={cards} handleDelete={deletee}/>
     </div>
   );
 }
