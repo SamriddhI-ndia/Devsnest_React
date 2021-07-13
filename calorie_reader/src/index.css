@@ -26,9 +26,10 @@ body{
         justify-content: center;
         align-items: center;
         height: 10vh;
-        margin-top:4vmin;
+        margin:6vmin;
         color:white;
         font-size: 3.5vmin;
+        flex-direction: column;
 }
 button{
     background: #fff;
@@ -42,4 +43,10 @@ button{
 }
 .card h1{
     display: inline-block;
+}
+.no{
+    color:white;
+    font-size:3vmin;
+    padding:1vmin;
+    margin:1vmin;
 }
