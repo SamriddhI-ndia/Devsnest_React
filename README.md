@@ -11,3 +11,5 @@
 [CHESS BOARD KEY](https://samriddhi-ndia.github.io/Devsnest_React/chess_board_key/build/index.html)
 
 [COUNTER](https://samriddhi-ndia.github.io/Devsnest_React/counter/build/index.html)
+
+[CALORIE TRACKER](https://samriddhi-ndia.github.io/Devsnest_React/day21_calorie_reader/build/index.html)
