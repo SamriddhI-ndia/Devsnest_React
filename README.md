@@ -12,4 +12,4 @@
 
 [COUNTER](https://samriddhi-ndia.github.io/Devsnest_React/counter/build/index.html)
 
-[CALORIE TRACKER](https://samriddhi-ndia.github.io/Devsnest_React/day21_calorie_reader/build/index.html)
+[CALORIE TRACKER](https://samriddhi-ndia.github.io/Devsnest_React/calorie_tracker/build/index.html)
