@@ -13,5 +13,3 @@
 [COUNTER](https://samriddhi-ndia.github.io/Devsnest_React/counter/build/index.html)
 
 [CALORIE TRACKER](https://samriddhi-ndia.github.io/Devsnest_React/calorie_tracker/build/index.html)
-
-[MEME GENERATOR](https://samriddhi-ndia.github.io/Devsnest_React/meme_generator/build/index.html)
