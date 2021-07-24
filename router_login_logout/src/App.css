@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.nav{
+    width:96vw;    
+    height:5vmin;
+    background: rgb(0, 26, 37);
+    margin: 10px auto;
+    padding:1.5vmin;
+    font-size: 3vmin;;
+}
+a{
+    margin:10px 20vmin;
+    color:white;
+    text-decoration: none;
+}
+a:visited,a:hover,a:active{
+   color:white;
+   text-decoration: none;
+}
+.App{
+    height:100vh;
+}
+.home{
+    height:60vh;
+    margin:2vmin;
+    width:50vw;
+    padding:2vmin;
+    margin:0 auto;
+}
+h1,h2,button{
+    margin:2vmin;
+    padding:1vmin;
+}
+button{
+    transform: scale(1.3);
+    background: rgb(0, 26, 37);
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px 1px grey;
+    border-radius: 25px;
+    color:white;
+    padding:1.3vmin;
+}
