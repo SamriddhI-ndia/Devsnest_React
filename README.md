@@ -16,4 +16,6 @@
 
 [MEME GENERATOR](https://samriddhi-ndia.github.io/Devsnest_React/meme_generator/build/index.html)
 
+[CUSTOM_HOOKS](https://samriddhi-ndia.github.io/Devsnest_React/custom_hooks/build/index.html)
+
 [ROUTER_LOGIN_LOGOUT](https://samriddhi-ndia.github.io/Devsnest_React/router_login_logout/build/index.html)
