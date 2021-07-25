@@ -1,0 +1,14 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height:100vh;
+}
+.card{
+  width:50vw;
+  height:50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:4px 4px 7px 2px rgb(44, 44, 44);
+  margin-top:8vmin;
+}
