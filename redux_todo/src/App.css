@@ -4,56 +4,48 @@ h3{
     font-size: 3vmin;
     font-family: 'Courier New', Courier, monospace;
 }
-.input{
-    transform: scaleY(0.7);
-    margin:2vmin!important;
-}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    background: rgb(14,14,14)!important;
+    height:80vh;
+    background:  linear-gradient(145deg, #0f1316, #12161a)!important;
 }
-
-body::after{
-    content:'';
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background: linear-gradient(rgb(68, 0, 0),red,rgb(255, 102, 0));
-    clip-path: circle(10% at 68% 65%);
-    z-index: -10;
-}
-body::before{
-    content:'';
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background: linear-gradient(rgb(0, 16, 26),#2de6ff);
-    clip-path: circle(25% at 15% 15%);
-    
+*{
+    margin:0.5vmin;
+    padding:0.5vmin;
 }
 .add{
-    margin-top:3.5vmin!important;
-    transform: scale(1.05);
+    margin:1vmin!important;
+    background: linear-gradient(145deg, #0f1316, #12161a);
+    box-shadow:  2px 2px 7px #07080a,-2px -2px 7px #1b2226;
+    padding:auto;
+    border-radius: 50%;
+    border:0px solid white;
+    transform: scale(1.1);
+    color:white;
+    margin-left:5vmin!important;
 }
-
+h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin:5vmin;
+}
 .delete{
     float:right;
-    margin:1vmin!important;
+    margin:1vmin 0vmin!important;
+    background: linear-gradient(145deg, #0f1316, #12161a);
+    box-shadow:  2px 2px 7px #07080a,-2px -2px 7px #1b2226;
+    padding:5px;
+    border-radius: 50%;
+    border:0px solid white;
+    transform: scale(1.1);
+    color:white;
 }
 .App{
     color:hsl(0, 0%, 100%);
     padding:60px;
-    overflow-wrap: break-word;
-    z-index: 3;
-    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
-    backdrop-filter: blur(5px);
     border-radius: 15px;
-    background:rgba(225,225,225,0.1);
+    background: linear-gradient(145deg, #0f1316, #12161a);
+    box-shadow:  5px 5px 13px #07080a,-5px -5px 13px #1b2226;
 }
