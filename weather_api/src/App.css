@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    color:rgb(255, 255, 255);
+}
+h1{
+    color:rgb(0, 174, 255);
+    text-shadow: rgba(16, 232, 240, 0.2) 0px 0px 10px;
+}
+.info{
+    margin:3%;
+    padding:3%;
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  5px 5px 10px #050505, -5px -5px 10px #151515;
+}
+.weather_card{
+    margin:30px;
+    padding:20px;
+    border-radius: 33px;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  7px 7px 10px #050505,-7px -7px 10px #151515;
+}
+.info p{
+    font-size:0.8rem;
+    color:grey
+}
+img{
+    width:180px;
+}
+input,button{
+    margin:4vmin;
+    border:0px solid black;
+    border-radius: 5px;
+    padding:10px;
+    height:50px;
+    color:white;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  5px 5px 10px #050505,-5px -5px 10px #151515;
+}
+input{
+    width:50%;
+}
+button{
+    margin:0px;
+    width:12%;  
+    padding: 10px;
+}
+h5{
+    margin-bottom:4vmin;
+}
+p{
+    font-size: 0.8rem;
+}
+h3{
+    display: inline-block;
+}
+span{
+    margin:2px;
+    font-size: 1rem;
+    color:rgb(0, 174, 255);
+    text-shadow: rgba(16, 232, 240, 0.2) 0px 0px 10px;
+}
