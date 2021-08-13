@@ -7,7 +7,7 @@ function App() {
     null);
   const[location,setLocation]=useState("Delhi");
   const updateLocation=()=>{
-    fetch('http://api.weatherapi.com/v1/current.json?key=100f5d2ac8a84a31805160647210307&q='+location)
+    fetch('https://api.weatherapi.com/v1/current.json?key=100f5d2ac8a84a31805160647210307&q='+location)
     .then(res=>res.json())
     .then((api_data)=>{
       console.log(api_data);
