@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.body,.container-fluid,.row_us{
+    background: #1b1b1b;
+    height:100%;
+    color:rgb(197, 196, 196);
+}
+.container-fluid_dark,.row_us_dark{
+    background: #e0e0e0;
+    height:100%;
+}
+.cont{
+    height:100%;
+    background:linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    border-radius: 5px;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  12px 12px 16px #050505;
+}
+.cont_dark{
+    height:100%;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #5a5a5a,
+                 -5px -5px 10px #ffffff;
+}
+
+.forecast{
+    display: inline-flex;
+    margin:10px;
+    margin-top: 3vmin;
+    padding:1.5%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  5px 5px 10px #050505, -5px -5px 10px #141414;
+}
+.forecast_dark{
+    display: inline-flex;
+    margin:10px;
+    margin-top: 3vmin;
+    padding:1.5%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #5a5a5a,
+                 -5px -5px 10px #ffffff;
+}
+.left{
+    background: url('bg_dark.jpg');
+    background-size: cover;
+    float:left;
+    padding:30px;
+    width:35%;
+    height:80vh;
+    color:white;
+}
+.left_dark{
+    background: url('bgg.jpg');
+    background-size: cover;
+    float:left;
+    padding:30px;
+    width:35%;
+    height:80vh;
+    color:white;
+}
+.right{
+    font-family: 'Open Sans', sans-serif;
+    float:right;
+    padding: 5vmin;
+    height:80vh;
+    width:65%;
+}
+.right_dark{
+    font-family: 'Open Sans', sans-serif;
+    float:right;
+    padding: 5vmin;
+    height:80vh;
+    width:65%;
+    color:black;
+    
+}
+.extra{
+    margin:4vmin;
+}
+.extra h5{
+    display: inline-block;
+    
+}
+.extra span{
+    font-size:2.5vmin;
+    float: right;
+}
+.extra span p{
+    font-size:1.5vmin;
+    display: inline-block;
+    right:0px;
+}
+.left p{
+    font-size:5vmin;
+    font-weight: bolder;
+}
+.main_img{
+    width:150px;
+    margin-top: 60px;
+    transform:translateX(-20px);
+}
+.card{
+    border:0px solid black;
+    margin-top:50px;
+}
+
+.choose{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    box-shadow:  5px 5px 10px #050505, -5px -5px 10px #141414;
+    color:white;
+    margin-top:8vmin;
+    border:0px solid black;
+    width:180px;
+    height:40px;
+}
+.choose_dark{
+    border-radius: 10px;
+    background: #e0e0e0;
+box-shadow:  18px 18px 45px #8b8b8b,
+             -18px -18px 45px #ffffff;
+    color:black;
+    margin-top:8vmin;
+    border:0px solid black;
+    width:180px;
+    height:40px;
+}
+.save,.close{
+    background: linear-gradient(145deg, #0c0c0c, #0e0e0e);
+    width:120px;
+    height:40px;
+    color:white;
+    border-radius: 5px;
+}
+.input_loc{
+    width:100%;
+    height:40px;
+}
+.extra .ch{
+    font-size: 1.75vmin;
+    margin-top: 1vmin;
+    margin-left: 2px;
+}
+.light_button,.dark_button{
+    float:right;
+    margin-top:0vmin;
+    margin-right:3vmin;
+    width:80px;
+    height:40px;
+    border:0px solid white;
+    font-weight: bolder;
+    border-radius: 6px;
+    z-index: 10;
+}
+.light_button{
+    background: #000;
+    color:white;
+}
+.other h1{
+    font-size: 9vmin;
+    color: grey;
+}
