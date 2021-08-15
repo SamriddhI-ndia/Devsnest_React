@@ -23,3 +23,7 @@
 [REDUX_LOGIN](https://samriddhi-ndia.github.io/Devsnest_React/redux_login/build/index.html)
 
 [REDUX_TODO](https://samriddhi-ndia.github.io/Devsnest_React/redux_todo/build/index.html) 
+
+[WEATHER](https://samriddhi-ndia.github.io/Devsnest_React/weather_api/build/index.html) 
+
+[WEATHER_APP](https://samriddhi-ndia.github.io/Devsnest_React/weather_app/build/index.html) 
