@@ -10,4 +10,10 @@ const removeItem = (index) => {
         payload:index,
     }
 }
-export { addItem,removeItem};
+const checked=(status)=>{
+    return {
+        type:"Check_item",
+        payload:status,
+    }
+}
+export { addItem,removeItem,checked};

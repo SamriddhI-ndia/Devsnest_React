@@ -34,36 +34,36 @@ const Card = () => {
                         </div>
                         <div className="extra">
                             <h5 className="detial">HUMIDITY</h5>
-                            <span>{data.current.wind_kph}<span className="ch"> kph</span></span>
+                            <span>{data.current.wind_kph}<span className="ch"> %</span></span>
                         </div>
                         <div className="extra">
                             <h5 className="detial">WIND</h5>
-                            <span>{data.current.humidity}<span className="ch"> %</span></span>
+                            <span>{data.current.humidity}<span className="ch"> kph</span></span>
                         </div>
                         <center>
                         <div className={theme?"forecast":"forecast_dark"}>
                             <img src={data.forecast.forecastday[0].hour[(d.getHours()+1)%24].condition.icon} alt="forecast"/>
-                            <h6>{(d.getHours()+1)%12}{d.getHours()+1>12?" pm":" am"}</h6>
+                            <h6>{(d.getHours()+1)%12}{(d.getHours()+1)%24>12?" pm":" am"}</h6>
                             <h6>{data.forecast.forecastday[0].hour[(d.getHours()+1)%24].feelslike_c}°C</h6>
                         </div>
                         <div className={theme?"forecast":"forecast_dark"}>
                             <img src={data.forecast.forecastday[0].hour[(d.getHours()+2)%24].condition.icon} alt="forecast"/>
-                            <h6>{(d.getHours()+2)%12}{d.getHours()+2>12?" pm":" am"}</h6>
+                            <h6>{(d.getHours()+2)%12}{(d.getHours()+2)%24>12?" pm":" am"}</h6>
                             <h6>{data.forecast.forecastday[0].hour[(d.getHours()+2)%24].feelslike_c}°C</h6>
                         </div>
                         <div className={theme?"forecast":"forecast_dark"}>
                             <img src={data.forecast.forecastday[0].hour[(d.getHours()+3)%24].condition.icon} alt="forecast"/>
-                            <h6>{(d.getHours()+3)%12}{d.getHours()+3>12?" pm":" am"}</h6>
+                            <h6>{(d.getHours()+3)%12}{(d.getHours()+3)%24>12?" pm":" am"}</h6>
                             <h6>{data.forecast.forecastday[0].hour[(d.getHours()+3)%24].feelslike_c}°C</h6>
                         </div>
                         <div className={theme?"forecast":"forecast_dark"}>
                             <img src={data.forecast.forecastday[0].hour[(d.getHours()+4)%24].condition.icon} alt="forecast"/>
-                            <h6>{(d.getHours()+4)%12}{d.getHours()+4>12?" pm":" am"}</h6>
+                            <h6>{(d.getHours()+4)%12}{(d.getHours()+4)%24>12?" pm":" am"}</h6>
                             <h6>{data.forecast.forecastday[0].hour[(d.getHours()+4)%24].feelslike_c}°C</h6>
                             </div>
                         <div className={theme?"forecast":"forecast_dark"}>
                             <img src={data.forecast.forecastday[0].hour[(d.getHours()+5)%24].condition.icon} alt="forecast"/>
-                            <h6>{(d.getHours()+5)%12}{d.getHours()+5>12?" pm":" am"}</h6>
+                            <h6>{(d.getHours()+5)%12}{(d.getHours()+5)%24>12?" pm":" am"}</h6>
                             <h6>{data.forecast.forecastday[0].hour[(d.getHours()+5)%24].feelslike_c}°C</h6>
                         </div>
                         <Input/></center>

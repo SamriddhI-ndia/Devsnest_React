@@ -49,3 +49,7 @@ h1{
     background: linear-gradient(145deg, #0f1316, #12161a);
     box-shadow:  5px 5px 13px #07080a,-5px -5px 13px #1b2226;
 }
+ input[type="checkbox" i]{
+    background-color: #000!important;
+    transform: scale(2);
+} 

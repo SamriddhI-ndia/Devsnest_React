@@ -22,7 +22,7 @@ const AddTodo = () => {
             }}
             />
             <button className="add" onClick={()=>{
-                dispatch(addItem(item))
+                dispatch(addItem({item:item,checked:false}))
                 setItem("");
                 }}><AddIcon/></button>
         </div>
