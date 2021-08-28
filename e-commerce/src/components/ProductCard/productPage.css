@@ -1,0 +1,116 @@
+/* .body{
+    display:flex;
+    height:100vh;
+    overflow: scroll;
+  }  */
+  .left,.right{
+    padding:40px;
+  }
+  .add_cart,.buy_now{
+    margin-right:10px!important;
+  }
+  .progress{
+    margin:7px;
+    width:50%;
+    height:7px!important;
+    border-radius: 5px;
+  }
+  .number p{
+    font-size:6vmin;
+  }
+  .stars{
+    width:15px!important;
+    height:15px!important;
+    margin:0px;
+    fill: yellow;
+  }
+  .number p{
+    display: inline-block;
+  }
+  h4{
+    margin:3vmin 1vmin;
+  }
+  .comments,.ratings{
+    margin-top:25px;
+  }
+  .comments h5{
+    display: inline-block;
+    margin:10px;
+  }
+  .comments p{
+    margin:10px 35px;
+  }
+  .star_div{
+    margin-left:35px;
+  }
+  .dots{
+    float:right;
+    margin:15px;
+  }
+  
+  .progress_div{
+    display: inline-block;
+    margin:30px;
+    width:400px;
+  }
+  .number{
+      display: inline-block;
+      transform: translateY(-20px);
+  }
+  .progress-bar{
+    border-radius:10px;
+  }
+  .main_img{
+      border-radius: 10px;
+      width:25vmax;
+      height:25vmax;
+      transition: all 0.5s ease;
+      z-index:-1;
+  }
+  .more_img{
+      
+      width:6vmax;
+      height:6vmax;
+      z-index: 1;
+      float:right;
+      margin-top:10px;
+      border-radius:5px;
+      border:1px solid rgb(187, 187, 187);
+  }
+  
+  .size{
+      width:4vmin!important;
+      height:4vmin!important;
+      margin:5px;
+      border:1px solid black;
+      border-radius:5px;
+      padding:10px 20px;
+      font-weight: bold;
+  }
+  .icon{
+      margin:5px;
+  }
+  
+  .right{
+    margin:15px 10px!important;
+    padding:5px;
+  } 
+   .card_image{
+    width:300px!important;
+  } 
+  .but{
+    color:white!important;
+    background: #FF2020!important;
+    margin:10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  .image_div{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding-left:2vw!important; */
+  }
