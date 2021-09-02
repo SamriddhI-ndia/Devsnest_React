@@ -1,4 +1,3 @@
-
 const addNote=(note:string)=>{
     return {
         type:"ADD_NOTES",
