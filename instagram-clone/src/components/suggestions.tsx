@@ -7,8 +7,8 @@ const Suggestions=()=>{
        
                 <div className="col">
                     <div style={{marginTop:"20px"}}>
-                    <img className="suggestion-img" style={{width:"60px",height:"60px",border:"0px   solid white",display:"inline-block",marginTop:"20px"}} src={user. profilepicture}/>
-                    <h6 style={{display:"inline-block",marginLeft:"10px"}}>{user.username}</h6>
+                    <img className="suggestion-img" style={{width:"60px",height:"60px",border:"0px   solid white",display:"inline-block",marginTop:"20px"}} src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg"/>
+                    <h6 style={{display:"inline-block",marginLeft:"10px"}}>Professor</h6>
                     <span style={{marginTop:"40px",marginLeft:"120px",color:"blue"} }>Switch</span>
                     <p style={{marginLeft:"70px",marginTop:"-30px",color:"grey"}}>Profile name</    p>
                     </div>

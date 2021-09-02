@@ -7,10 +7,10 @@ const Profile=()=>{
         <div className="container">
             <div className="row">
                 <div className="col-3">
-                    <img className="profile" src={user.profilepicture}/>
+                    <img className="profile" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg"/>
                 </div>
                 <div className="col-8 profile-details">
-                    <h3>{user.username}</h3>
+                    <h3>Professor</h3>
                     <button>Edit Profile</button>
                     <i className="bi bi-gear-wide"></i>
                     <div>
@@ -29,7 +29,7 @@ const Profile=()=>{
                         [...Array(5)].map((_,index)=>(
                             <div className="highlights">
                                
-                                <img src={url[index+4]==undefined?user.profilepicture:url[index+4].urls.regular} alt="load nh ho pai"/>
+                                <img src={url[index+4]==undefined?"https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg":url[index+4].urls.regular} alt="load nh ho pai"/>
                                 <p style={{margin:"9px 8px",fontSize:"0.8rem",color:"grey"}}>hightlight{index+2}</p>
                             </div>
                         ))

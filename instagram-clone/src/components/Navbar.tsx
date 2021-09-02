@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-            <img src="/img/insta-logo.png"/>
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
             </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"    aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@ import { Link } from "react-router-dom";
             </li> 
             <Link to="/profile">
             <li className="nav-item">
-             <img className="profile_picture" src={user.profilepicture} alt="load nahi ho paai"/>  
+             <img className="profile_picture" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="load nahi ho paai"/>  
             </li>   
             </Link>     
           </ul>

@@ -22,7 +22,7 @@ const Posts=()=>{
                     [...Array(30)].map((_:any,index:number)=>(
                         <div  className="col-md-10 p-0 post">
                             <div style={{margin:"10px"}}>
-                            <img className="profile_picture" src={user.profilepicture} alt="load nahi ho paai" onDoubleClick={()=>{
+                            <img className="profile_picture" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="load nahi ho paai" onDoubleClick={()=>{
                                 console.log("hua")
                                 
                                 setLiked(!liked)}}/>
@@ -31,7 +31,7 @@ const Posts=()=>{
                             
                             <i className="bi bi-three-dots dot"></i>
                             </div>
-                           <img className="post-img"  src={url[index]==undefined?user.profilepicture:url[index].urls.regular} alt="load nh ho pai"/>
+                           <img className="post-img"  src={url[index]==undefined?"https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg":url[index].urls.regular} alt="load nh ho pai"/>
 
                            <div className="post-icon">
                                <span onClick={()=>{setLiked(!liked)}}>
@@ -43,7 +43,7 @@ const Posts=()=>{
                             </div>
 
                             <div>
-                            <img className="profile_picture" src={user.profilepicture} alt="load nahi ho paai"/>
+                            <img className="profile_picture" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="load nahi ho paai"/>
                             <p className="liked" >Liked by <b>username{index+2}</b> and {index+40} others.</p>
                                 </div>
 
