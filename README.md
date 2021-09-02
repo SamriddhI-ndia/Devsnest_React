@@ -29,3 +29,5 @@
 [WEATHER_APP](https://samriddhi-ndia.github.io/Devsnest_React/weather_app/build/index.html) 
 
 [E-COMMERCE](https://cocky-allen-7068e0.netlify.app/)
+
+[INSTAGRAM-CLONE](https://samriddhi-ndia.github.io/Devsnest_React/instagram-clone/build/index.html)
