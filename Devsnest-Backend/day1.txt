@@ -1,0 +1,34 @@
+DAY 1 
+
+REDIS- Data structure server- cache for database- key value pairs
+
+SET name Samriddhi 		/* set key value */
+GET name			/* get value of key */
+EXIST name			/* if exist key */
+DELETE name			/* delete key */
+FLUSHALL			/* delete all */
+ttl name			/* time to live  */
+EXPIRE name 10			/* delete key after mentioned time */
+SETEX name 10 Samriddhi		/* shorthand */
+
+<--------------------------ARRAYS------------------------------>
+
+LPUSH/RPUSH friends A			/* insert in arrays from left/right side*/
+LRANGE friends 0 -1			/* iterate array */
+LPOP/RPOP friends			/* delete element from left/right */
+LINSERT friends AFTER/BEFORE A B	/* insert in between */
+
+<--------------------------SET------------------------------>
+
+SADD hobbies scrapbooking 	/* add in set */
+SMEMBERS hobbies		/* list set */
+
+<--------------------------OBJECTS------------------------------>
+
+HSET person name Samriddhi	/* create object */
+HGET person name		/* get value of key of object*/
+HGETALL person			/* get all values of key*/
+>>>"name"
+>>>"Samriddhi"
+HDEL person name
+HEXISTS person name
