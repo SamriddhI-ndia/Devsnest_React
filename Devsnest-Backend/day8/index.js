@@ -7,12 +7,11 @@ const checkAdmin = (req, res, next) => {
   } else {
     res.status(400).send("must be admin");
   }
-};
-
+}
 const sendData = (req, res) => {
   res.json(req.query);
   console.log("is admin");
-};
+}
 
 app.get("/secure", checkAdmin, sendData);
 
