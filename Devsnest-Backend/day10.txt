@@ -1,0 +1,29 @@
+DEPLOYMENT ON AWS:
+=> Firstly setup a new instance and downloaded the .pem file
+=> For windows locate the .pem file in C/users
+=> Apply these commands in powershell
+
+# How to connect to instance after creating it
+ssh -i <".pem_file_name"> ubuntu@<ip>.amazonaws.com
+Installing nvm in Ubuntu instance
+LINK
+
+# Installing node v12
+nvm install v12
+create directory and clone/create express project
+npx express-generator
+
+Visit the link to see the express app on web
+Server is active till we are doing npm start
+
+#run the server in background
+npm install forever -g
+
+#run the app forever
+forever start ./bin/www
+
+#get the port on which forever is running
+forever list
+
+#quit instance in terminal
+exit
